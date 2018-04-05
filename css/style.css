@@ -1,0 +1,97 @@
+
+
+html {
+    background-image: url("../images/Des-Moines-Botanical-Garden-7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    font-family: "Lucida Sans", sans-serif;
+    font-size: 1em;   
+}
+
+body {
+    text-align: center;
+}
+
+.header {
+    margin-left: -2%;
+    width: 80%;
+}
+
+.info {
+    background-color: rgba(27, 3, 58, 0.726);
+}
+/*add color to info section text*/
+.mainInfo h2 {
+    color: rgb(243, 121, 8);
+    font-family: 'Caesar Dressing', cursive;
+    letter-spacing: 15px;
+}
+
+/* */
+.mainInfo h1, #clockdiv {
+    font-size: 1.5em;
+    font-family: 'Audiowide', cursive;
+    color: rgb(81, 81, 238);
+    text-shadow:  0 0 5px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+}
+
+/* styles for the countdown clock */
+ #clockdiv{
+    display: inline-block;
+}
+
+#clockdiv > div{
+    margin-top: 3px;
+	padding: 10px;
+	border-radius: 3px;
+    background: rgba(223, 11, 11, 0.651);
+    display:inline-block;
+    
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 5px;
+	background: rgb(248, 121, 17);
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+hr {
+    margin:auto;
+    width: 40%;
+   border: 3px solid rgb(240, 8, 8);
+}
+
+@media only screen and (orientation: portrait) and (min-width: 768px) {
+    /* For desktop: */
+
+    .header {
+        width: 550px;
+    }
+    .mainInfo {
+        font-size: 2em;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+    /* For desktop: */
+
+    .header {
+        margin-left: -20px;
+        width: 600px;
+    }
+    .mainInfo {
+        font-size: 2em;
+    }
+
+
+}

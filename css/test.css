@@ -1,0 +1,186 @@
+html {
+    height: 100%;
+    font-size: 16px;  
+    font-family: "Lucida Sans", sans-serif;
+    text-align:center;
+}
+
+.container {
+    height: 100%;
+}
+
+.topRightBox {
+    height:50vh;
+    background-color:rgb(183, 0, 255);
+}
+
+.featuringBox {
+    position:absolute;
+    color: white;
+    top: 40%;
+    left: 10%;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 10vw;
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+   -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+   transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+    
+}
+
+.topLeftBox {
+     height:50vh;
+     padding-top: 6%;
+     background-color:blue;
+     font-family: 'Kaushan Script', cursive;
+     font-size: 1em;
+     color: rgb(180, 87, 118);
+   
+ }
+
+ .bottomLeftBox {
+     height:50vh;
+     background-color:green;
+ }
+
+ .mainInfo {
+    padding-top: 5%;
+ }
+
+ .mainInfo h1 {
+     font-size: 2em;
+ }
+  /* styles for the countdown clock */
+  #clockdiv{
+    display: inline-block;
+    font-size: 2em;
+}
+
+#clockdiv > div{
+    margin-top: 3px;
+	padding: 10px;
+	border-radius: 3px;
+    background: rgba(223, 11, 11, 0.651);
+    display:inline-block;
+    
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 5px;
+	background: rgb(248, 121, 17);
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+hr {
+    margin:auto;
+    width: 40%;
+   border: 3px solid rgb(240, 8, 8);
+}
+
+
+ .bottomRightBox {
+     height:50vh;
+     padding-top: 8%;
+     background-color:yellow;
+     font-family: 'Caesar Dressing', cursive;
+     font-size: 1.5em;
+ }
+
+
+
+ 
+
+@media only screen and (orientation: portrait) and (min-width: 768px) {
+    /* For ipads: */
+
+   
+    .featuringBox {
+        top:40%;
+        left: 28%;
+        font-size: 4vw;
+    }
+    
+    .topLeftBox {
+         height:50vh;
+         background-color:blue;
+         font-family: 'Kaushan Script', cursive;
+         font-size: 3vw;
+         color: rgb(180, 87, 118);
+       
+     }
+     .mainInfo {
+        padding-top: 5%;
+     }
+    
+     .mainInfo h1 {
+         font-size: 5vw;
+     }
+      /* styles for the countdown clock */
+      #clockdiv{
+        font-size: 3vw;
+    }
+    
+    .smalltext{
+        padding-top: 5px;
+        font-size: 2vw;
+    }
+
+     .bottomRightBox {
+         height:50vh;
+         padding-top: 8%;
+         background-color:yellow;
+         font-family: 'Caesar Dressing', cursive;
+         font-size: 4vw;
+     }
+    
+}
+
+@media only screen and (orientation: landscape) and (min-width: 768px) {
+    /* For desktop: */
+
+    .featuringBox {
+        top:35%;
+        left: 35%;
+        font-size: 4vw;
+    }
+    
+    .topLeftBox {
+         padding-top: 0%;
+         font-size: 1.3vw;
+     }
+    
+     .bottomLeftBox {
+         height:50vh;
+         background-color:green;
+     }
+    
+     .mainInfo {
+        padding-top: 5%;
+     }
+    
+     .mainInfo h1 {
+         font-size: 5vw;
+     }
+      /* styles for the countdown clock */
+      #clockdiv{
+        font-size: 2vw;
+    }
+    
+    .smalltext{
+        padding-top: 5px;
+        font-size: 1vw;
+    }
+
+     .bottomRightBox {
+         padding-top: 2%;
+         font-size: 2.5vw;
+     }
+    
+}
+
